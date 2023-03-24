@@ -2,13 +2,19 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import AppBar from "./componentes/AppBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./routes/Home";
 
 function App() {
   return (
-    <>
-      <AppBar />
-      <div className="bg-slate-800 relative top-16 min-h-full">teste</div>
-    </>
+    <BrowserRouter>
+      <div>
+        <AppBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
