@@ -1,6 +1,7 @@
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: rgb(30 41 59);
+}
+
+.btn-text-shadow {
+  text-shadow: 1px 1px 3px black;
 }
