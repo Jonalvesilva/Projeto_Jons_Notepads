@@ -1,7 +1,12 @@
 body {
   background-color: rgb(30 41 59);
+  min-width: 350px;
 }
 
 .btn-text-shadow {
+  text-shadow: 1px 1px 3px black;
+}
+
+.card-text-shadow:hover {
   text-shadow: 1px 1px 3px black;
 }
