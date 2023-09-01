@@ -10,6 +10,7 @@ const initialCreateNotepad = {
   title: "",
   subtitle: "",
   content: "",
+  created_at: new Date(),
 };
 
 export function EditNotepad() {
@@ -23,6 +24,7 @@ export function EditNotepad() {
         title: results.data.title,
         subtitle: results.data.subtitle,
         content: results.data.content,
+        created_at: results.data.created_at,
       })
     );
   }, []);

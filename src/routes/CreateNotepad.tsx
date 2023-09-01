@@ -10,6 +10,7 @@ const initialCreateNotepad = {
   title: "",
   subtitle: "",
   content: "",
+  created_at: new Date(),
 };
 
 export function CreateNotepad() {

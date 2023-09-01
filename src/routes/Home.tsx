@@ -25,7 +25,7 @@ export function Home() {
   }, []);
 
   useEffect(() => {
-    console.log(`isLoading é igual a: ${isLoading}`);
+    //console.log(`isLoading é igual a: ${isLoading}`);
   }, [isLoading]);
 
   return (
