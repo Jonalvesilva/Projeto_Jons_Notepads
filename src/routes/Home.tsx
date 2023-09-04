@@ -15,12 +15,15 @@ export function Home() {
   const [notepads, setNotepads] = useState(initialNotepads);
   const [isLoading, setIsLoading] = useState(false);
   const textoCarregando = isLoading ? "Carregando..." : "";
-
+  let error;
   useEffect(() => {
     setIsLoading(true);
     pegaNotepads().then((notepads) => {
       setNotepads(notepads);
       setIsLoading(false);
+    });
+    pegaNotepads().catch((e) => {
+      error = e;
     });
   }, []);
 
@@ -31,7 +34,7 @@ export function Home() {
   return (
     <div>
       <div className="w-full text-white flex justify-center md:text-xl">
-        {textoCarregando}
+        {error}
       </div>
       <NotepadList notepads={notepads} />
     </div>
