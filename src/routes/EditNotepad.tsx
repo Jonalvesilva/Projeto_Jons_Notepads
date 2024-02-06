@@ -34,7 +34,7 @@ export function EditNotepad() {
       <Breadcrumbs
         links={[
           { title: "Página inicial", link: "/" },
-          { title: form.title, link: `/publicacoes/${params.id}` },
+          { title: "Editar", link: `/publicacoes/${params.id}` },
         ]}
         key={params.id}
       />
