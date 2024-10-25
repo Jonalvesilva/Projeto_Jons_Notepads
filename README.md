@@ -39,5 +39,14 @@
   </pre>
 </div>
 <p>4. Abra seu navegador e acesse http://localhost:3000 para ver o projeto em ação!</p>
+<h2>Fotos</h2>
+<table>
+  <tr>
+    <td><img src="https://drive.google.com/uc?export=view&id=1XLmljaTP22RjTH2Nch3_Kija9Jq_eyTm" 
+          width=500/></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1hO9ihLrfoGcfVqo7Af7l05nQ-m8fg3Gc" 
+           width=500/></td>
+  </tr>
+</table>
 <h2>Contribuição</h2>
 <p>Você pode contribuir para o projeto enviando problemas ou solicitações de pull para este repositório</p>
